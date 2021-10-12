@@ -45,7 +45,7 @@ const useStyles = makeStyles((theme) => ({
   },
   paper:{
 width:430,
-height:400,
+height:430,
 BackgroundColor:"grey",
 marginTop:30,
 marginRight:600
@@ -59,20 +59,7 @@ marginRight:600
 marginLeft:40,
 padding:30
   },
- 
-  div1: {
-    display: 'flex',
-    justifyContent: 'space-evenly',
-  },
-  book1: {
-    color: 'pink',
-    fontSize: 40,
-  },
-  grid1: {
-    marginLeft: 'auto',
-    alignItems: 'center',
-  },
-  title:{
+   title:{
     fontSize:25,
     textAlign:'center',
     padding:20,
@@ -167,15 +154,15 @@ function App() {
               <Typography className=
               {classes.title}>{book.volumeInfo.title}</Typography>
               <Typography 
-             > Content Version:{book.volumeInfo.contentVersion}</Typography>
+             > Content Version:{book.volumeInfo.contentVersion}</Typography><br/>
               <Typography 
-             > pageCount:{book.volumeInfo.pageCount}</Typography>
+             > Page Count:{book.volumeInfo.pageCount}</Typography><br/>
               <Typography 
-             > sub title:{book.volumeInfo.subtitle}</Typography>
+             > Sub Title:{book.volumeInfo.subtitle}</Typography><br/>
               <Typography 
-             > publishedDate:{book.volumeInfo.publishedDate}</Typography>
+             > Published Date:{book.volumeInfo.publishedDate}</Typography><br/>
               <Typography 
-             >  publisher:{book.volumeInfo. publisher}</Typography>
+             >  Publisher:{book.volumeInfo. publisher}</Typography>
             </div>
               </Paper>
               </Grid>
