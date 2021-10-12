@@ -20,7 +20,7 @@ const useStyles = makeStyles((theme) => ({
   },
 
   book: {
-    color: 'white',
+    color: '#c2185b',
     fontSize: 30,
     fontWeight: 'bold',
     fontFamily: 'sans-serif',
@@ -62,8 +62,8 @@ padding:30
    title:{
     fontSize:25,
     textAlign:'center',
-    padding:20,
-    fontColor:"#002884"
+    padding:10,
+    color:"#3f51b5"
   },
   App:{
     backgroundColor:"black"
