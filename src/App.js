@@ -20,19 +20,19 @@ const useStyles = makeStyles((theme) => ({
   },
 
   book: {
-    color: 'black',
+    color: 'white',
     fontSize: 30,
     fontWeight: 'bold',
     fontFamily: 'sans-serif',
     textAlign: 'left',
-    marginLeft: 24,
+    marginLeft: 150,
   },
 
   root1: {
     padding: '2px 4px',
     display: 'flex',
     alignItems: 'center',
-    width: 500,
+    width: 600,
   },
   input: {
     marginLeft: theme.spacing(1),
@@ -56,7 +56,8 @@ marginRight:600
     margin: 4,
   },
   books:{
-marginLeft:40
+marginLeft:40,
+padding:30
   },
  
   div1: {
@@ -74,7 +75,8 @@ marginLeft:40
   title:{
     fontSize:25,
     textAlign:'center',
-    padding:20
+    padding:20,
+    fontColor:"#002884"
   },
   App:{
     backgroundColor:"black"
@@ -140,7 +142,7 @@ function App() {
             <Paper component="form" className={classes.root1}>
               <InputBase
                 className={classes.input}
-                placeholder="Search book here with title or author name"
+                placeholder="Search book here with title"
                 onChange={searchHandler}
               />
 
